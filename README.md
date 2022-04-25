@@ -81,8 +81,10 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
+[![object_detection][object_detection]](https://example.com)
+[![minecraft][minecraft]](https://example.com)
+[![open3d][open3d]](https://example.com)
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
 
 There are many great README templates available on GitHub; however, I didn't find one that really suited my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
 
@@ -103,14 +105,10 @@ Use the `BLANK_README.md` to get started.
 
 This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
 
-* [Next.js](https://nextjs.org/)
-* [React.js](https://reactjs.org/)
-* [Vue.js](https://vuejs.org/)
-* [Angular](https://angular.io/)
-* [Svelte](https://svelte.dev/)
-* [Laravel](https://laravel.com)
-* [Bootstrap](https://getbootstrap.com)
-* [JQuery](https://jquery.com)
+* [ouster-sdk](https://static.ouster.dev/sdk-docs/quickstart.html)
+* [open3d](https://github.com/isl-org/Open3D)
+* [shapely](https://github.com/shapely/shapely)
+* [google colab](https://colab.research.google.com/?utm_source=scs-index)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -250,4 +248,6 @@ Use this space to list resources you find helpful and would like to give credit 
 [license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/othneildrew
-[product-screenshot]: https://storage.googleapis.com/data.ouster.io/concept-engineering/colab_images/yolo_result.png
+[object_detection]: https://storage.googleapis.com/data.ouster.io/concept-engineering/colab_images/yolo_result.png
+[minecraft]: https://storage.googleapis.com/data.ouster.io/concept-engineering/colab_images/minecraft_view1.png
+[open3d]:https://storage.googleapis.com/data.ouster.io/concept-engineering/colab_images/newplot.png
