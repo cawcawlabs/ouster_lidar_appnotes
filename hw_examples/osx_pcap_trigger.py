@@ -52,7 +52,7 @@ def _collect_indefinitely(sensor: client.Sensor) -> Iterator[client.Packet]:
     while recorder.state == 'record':  # TODO: consider max time limit too
         yield next(packet_source)
 
-hostname = 'os-992214000415.local'
+hostname = 'YOUR OSX hostname' #ex) 'os-992214000415.local'
 lidar_port = 7502
 imu_port = 7503
 n_seconds = 30
