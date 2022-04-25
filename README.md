@@ -82,6 +82,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 [![object_detection][object_detection]](https://example.com)
+[![yolo_viz][yolo_viz]](https://example.com)
 [![minecraft][minecraft]](https://example.com)
 [![open3d][open3d]](https://example.com)
 
@@ -108,6 +109,7 @@ This section should list any major frameworks/libraries used to bootstrap your p
 * [ouster-sdk](https://static.ouster.dev/sdk-docs/quickstart.html)
 * [open3d](https://github.com/isl-org/Open3D)
 * [shapely](https://github.com/shapely/shapely)
+* [yolov5](https://github.com/ultralytics/yolov5)
 * [google colab](https://colab.research.google.com/?utm_source=scs-index)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -249,5 +251,6 @@ Use this space to list resources you find helpful and would like to give credit 
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/othneildrew
 [object_detection]: https://storage.googleapis.com/data.ouster.io/concept-engineering/colab_images/yolo_result.png
+[yolo_viz]: https://storage.googleapis.com/data.ouster.io/concept-engineering/colab_images/yolo_office_cropped.png
 [minecraft]: https://storage.googleapis.com/data.ouster.io/concept-engineering/colab_images/minecraft_view1.png
 [open3d]:https://storage.googleapis.com/data.ouster.io/concept-engineering/colab_images/newplot.png
