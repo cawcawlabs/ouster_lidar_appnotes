@@ -87,16 +87,23 @@
 [![open3d][open3d]](https://example.com)
 
 
-There are many great README templates available on GitHub; however, I didn't find one that really suited my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
+This project hosts a collection of high level application demo/code examples using Ouster's ![OSx Lidars](https://ouster.com/products/) and it's python ![ouster-sdk](https://static.ouster.dev/sdk-docs/quickstart.html).
+We also provide hackable puzzle pieces to help inspire your prototyping efforts, ranging from AR/VR to Deep Learning applications. But we make sure that these snippets form a minimum viable application to give you the full context.
 
-Here's why:
-* Your time should be focused on creating something amazing. A project that solves a problem and helps others
-* You shouldn't be doing the same tasks over and over like creating a README from scratch
-* You should implement DRY principles to the rest of your life :smile:
+You'll find useful functional snippets to be reassembled like Lego pieces:
+* Visualization (open3D/ouster-sdk)
+* Practical large size point cloud pcap recording (event driven start/stop)
+* Live sensor frame datafield processing
+* Processing of Depth, Reflectivity information from lidar as an OpenCV 2D images
+* Plotting, and running basic 6DOF IMU sensor fusion from internal IMU
+* Using SLAM map to create a digital game map asset
+* Using pre-trained deep learning networks to perform object detection (Yolov5/PointPillars)
+* Time/Frame synchronizing off the shelf camera to OSx lidars using strobe signal
+* More to Come!  :smile:
 
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have contributed to expanding this template!
+google_colab_demos folder hosts examples that can be run on google colab without any hardware or software dependency.
 
-Use the `BLANK_README.md` to get started.
+hw_examples folder hosts examples that require an OSx sensor connected via gigE ethernet to the host computer.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -111,6 +118,7 @@ This section should list any major frameworks/libraries used to bootstrap your p
 * [shapely](https://github.com/shapely/shapely)
 * [yolov5](https://github.com/ultralytics/yolov5)
 * [google colab](https://colab.research.google.com/?utm_source=scs-index)
+* [ahrs](https://github.com/Mayitzin/ahrs/)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
