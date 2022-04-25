@@ -95,6 +95,7 @@ You'll find useful functional snippets to be reassembled like Lego pieces:
 * Practical large size point cloud pcap recording (event driven start/stop)
 * Live sensor frame datafield processing
 * Processing of Depth, Reflectivity information from lidar as an OpenCV 2D images
+* Basic planar zone monitoring/triggering using OSx depth image + set computation 
 * Plotting, and running basic 6DOF IMU sensor fusion from internal IMU
 * Using SLAM map to create a digital game map asset
 * Using pre-trained deep learning networks to perform object detection (Yolov5/PointPillars)
