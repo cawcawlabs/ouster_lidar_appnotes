@@ -145,10 +145,6 @@ def main() -> None:
     viz = PyViz(scans.metadata)
     
     warning_mask, protection_mask = parse_xml()
-    
-    #ping = gTTS(text="PING!", lang='en', slow=False)
-    #ping.save("ping.mp3")
-    
 
     def run() -> None:
         try:
