@@ -52,9 +52,6 @@ def _collect_indefinitely(sensor: client.Sensor) -> Iterator[client.Packet]:
     while recorder.state == 'record':  # TODO: consider max time limit too
         yield next(packet_source)
 
-
-#hostname = 'os-122105000095.local'
-#hostname = 'os-992215000056.local'
 hostname = 'os-992214000415.local'
 lidar_port = 7502
 imu_port = 7503
@@ -65,7 +62,7 @@ def start_recording(source):
     # make a descriptive filename for metadata/pcap files
     time_part = datetime.now().strftime("%Y%m%d_%H%M%S")
     meta = source.metadata
-    fname_base = f"/media/daniel.sohn/CAWCAW_DATA/{meta.prod_line}_{meta.sn}_{meta.mode}_{time_part}"
+    fname_base = f"/YOUR_SSD_PATH/{meta.prod_line}_{meta.sn}_{meta.mode}_{time_part}"
     #fname_base = f"{meta.prod_line}_{meta.sn}_{meta.mode}_{time_part}"
 
     print(f"Saving sensor metadata to: {fname_base}.json")
