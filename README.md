@@ -85,6 +85,7 @@ This section should list any major frameworks/libraries used to bootstrap your p
 * [yolov5](https://github.com/ultralytics/yolov5)
 * [google colab](https://colab.research.google.com/?utm_source=scs-index)
 * [ahrs](https://github.com/Mayitzin/ahrs/)
+* [amulet](https://github.com/Amulet-Team/Amulet-Core)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
